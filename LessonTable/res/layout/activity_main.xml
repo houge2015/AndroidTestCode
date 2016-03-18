@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/table_monday_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/table_monday_text" />
+
+    <Button
+        android:id="@+id/table_tuesday_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/table_tuesday_text" />
+
+    <Button
+        android:id="@+id/table_wednesday_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/table_wednesday_text" />
+
+    <Button
+        android:id="@+id/table_thursday_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/table_thursday_text" />
+
+    <Button
+        android:id="@+id/table_firday_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/table_friday_text" />
+
+    <Button
+        android:id="@+id/table_saturday_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/table_saturday_text" />
+
+    <Button
+        android:id="@+id/table_sunday_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/table_sunday_text" />
+
+</LinearLayout>

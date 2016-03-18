@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lesson Table</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- 课表课程 -->
+    <string name="table_jieshu_text">节次</string>
+    <string name="table_english_text">大学英语</string>
+    <string name="table_jisuanjizechengyuanli_text">计算机组成原理</string>
+    <string name="table_operate_system_text">操作系统</string>
+    <string name="table_java_web_text">Java Web开发技术</string>
+    <string name="table_pe_text">体育</string>
+    <string name="table_database_text">数据库原理与应用</string>
+    <string name="table_maozedong_text">毛泽东思想和中国特色社会主义理论体系概论</string>
+    <!-- 星期 -->
+    <string name="table_one_text">一</string>
+    <string name="table_two_text">二</string>
+    <string name="table_three_text">三</string>
+    <string name="table_four_text">四</string>
+    <string name="table_five_text">五</string>
+    <string name="table_six_text">六</string>
+    <string name="table_seven_text">日</string>
+    <string name="table_monday_text">星期一</string>
+    <string name="table_tuesday_text">星期二</string>
+    <string name="table_wednesday_text">星期三</string>
+    <string name="table_thursday_text">星期四</string>
+    <string name="table_friday_text">星期五</string>
+    <string name="table_saturday_text">星期六</string>
+    <string name="table_sunday_text">星期日</string>
+
+</resources>

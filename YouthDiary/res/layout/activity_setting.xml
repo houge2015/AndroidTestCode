@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/setting_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTransparent"
+        android:text="@string/setting_bg_music_text" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/setting_bg_music_sw_text"
+            android:textColor="@color/colorBlack"
+            android:textSize="25.0dip" />
+
+        <Switch
+            android:id="@+id/setting_switch_music_tb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTransparent"
+            android:text="@string/setting_theme_text" />
+
+        <RadioGroup
+            android:id="@+id/setting_theme_switch_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/setting_theme_origin_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/setting_theme_origin_rb_text"
+                android:textSize="25.0dip" />
+
+            <RadioButton
+                android:id="@+id/setting_theme_transparent_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/setting_theme_transparent_rb_text"
+                android:textColor="@color/colorBlack"
+                android:textSize="25.0dip" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTransparent"
+            android:text="@string/setting_change_user_passwd_text" />
+
+        <EditText
+            android:id="@+id/setting_user_name_ed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_change_input_user_name_text"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/setting_passwd_ed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_change_input_passwd_text"
+            android:password="true"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/setting_confirm_passwd_ed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_change_input_passwd_again_text"
+            android:password="true"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/setting_flash_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/setting_change_confirm_bt_text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/setting_canncel_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/setting_change_cancel_bt_text" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

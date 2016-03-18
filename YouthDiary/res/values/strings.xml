@@ -1,0 +1,113 @@
+<resources>
+
+    <!-- App主程序 -->
+    <!-- <string name="app_name">Youth_Diary</string> -->
+    <string name="app_name">青春日记</string>
+
+    <!-- Login界面 -->
+    <string name="login_action_bar_title_text">登录</string>
+    <string name="login_input_user_name_text">请输入您的用户名</string>
+    <string name="login_input_passwd_text">请输入您的密码</string>
+    <string name="login_check_box_rember_text">记住用户名和密码</string>
+    <string name="login_login_button_text">登录</string>
+    <string name="login_copyright_text">Copyright © 2015-2016</string>
+    <string name="login_null_user_passed_text">用户名或密码不能为空</string>
+    <string name="login_error_user_passwd_text">用户名或密码错误</string>
+    <string name="login_login_success_text">登录成功</string>
+    <string name="login_dialog_first_login_title_text">系统提示</string>
+    <string name="login_dialog_first_login_message_text">初始用户名: youth_diary\n初始密码: yd1234567890\n首次使用建议修改用户名和密码!</string>
+    <string name="login_dialog_positive_text">确定</string>
+    <string name="login_null_sd_text">请检查SD卡是否插好</string>
+    <string name="login_login_load_progress_dl">登录中......</string>
+
+    <!-- Diary界面 -->
+    <string name="diary_action_bar_title_text">青春日记</string>
+    <string name="diary_write_ed_text">在这里写下你今天的心情记录......</string>
+    <string name="diary_store_bt_text">保存</string>
+    <string name="diary_clear_bt_text">清空</string>
+    <string name="diary_null_content_text">内容不能为空</string>
+    <string name="diary_success_store_text">保存成功</string>
+    <string name="diary_success_clear_text">已清空</string>
+    <string name="diary_fail_store_text">保存失败,请检查SD卡是否插好</string>
+    <string name="diary_press_again_exit_text">再按一次退出当前程序</string>
+    <!-- Menu界面 -->
+    <string name="diary_menu_play_text">播放</string>
+    <string name="diary_menu_pause_text">暂停</string>
+    <string name="diary_menu_setting_text">设置</string>
+    <string name="diary_menu_history_text">历史日记</string>
+    <string name="diary_menu_about_us_text">关于我们</string>
+    <string name="diary_menu_web_broswer_text">南通大学</string>
+    <string name="diary_menu_start_play_text">开始播放</string>
+    <string name="diary_menu_pause_play_text">暂停播放</string>
+    <string name="diary_menu_open_bg_play_setting_text">请在设置中打开背景播放开关</string>
+    <string name="diary_menu_null_music_playing_text">当前没有音乐播放</string>
+    <string name="diary_menu_null_sd_text">请检查SD卡是否插好</string>
+
+    <!-- Setting界面 -->
+    <string name="setting_action_bar_title_text">设置</string>
+    <string name="setting_bg_music_text">设置背景音乐</string>
+    <string name="setting_bg_music_sw_text">背景音乐开关</string>
+    <string name="setting_bg_music_on_text">背景音乐已打开</string>
+    <string name="setting_bg_music_off_text">背景音乐已关闭</string>
+    <string name="setting_theme_text">主题设置</string>
+    <string name="setting_theme_origin_rb_text">原始主题</string>
+    <string name="setting_theme_transparent_rb_text">透明主题</string>
+    <string name="setting_theme_switch_success_text">主题切换成功</string>
+    <string name="setting_change_user_passwd_text">修改用户名和密码(用户名和密码可单独修改)</string>
+    <string name="setting_change_input_user_name_text">请输入您的用户名</string>
+    <string name="setting_change_input_passwd_text">请输入您的密码</string>
+    <string name="setting_change_input_passwd_again_text">请再次输入您的密码</string>
+    <string name="setting_change_confirm_bt_text">确认修改</string>
+    <string name="setting_change_cancel_bt_text">取消修改</string>
+    <string name="setting_change_null_user_passed_text">用户名或密码不能为空</string>
+    <string name="setting_change_error_again_passwd_text">两次输入的密码不相同</string>
+    <string name="setting_change_null_again_passwd_text">请再次输入密码</string>
+    <string name="setting_change_success_text">用户名和密码修改成功</string>
+    <string name="setting_change_user_success_text">用户名修改成功</string>
+    <string name="setting_change_passwd_success_text">密码修改成功</string>
+    <string name="setting_change_success_cancel_text">已取消</string>
+
+    <!-- History界面 -->
+    <string name="history_action_bar_title_text">历史日记</string>
+    <string name="history_dl_tips_text">请选择下列操作</string>
+    <string name="history_dl_view_text">查看</string>
+    <string name="history_dl_change_text">修改</string>
+    <string name="history_dl_delete_text">删除</string>
+    <string name="history_dl_confirm_del">删除确认</string>
+    <string name="history_dl_confirm_del_msg_text">删除后将无法恢复\n确认删除?</string>
+    <string name="history_dl_confirm_del_positive_text">确定</string>
+    <string name="history_dl_confirm_delnn_negetive_text">取消</string>
+    <string name="history_dl_success_del_text">已删除</string>
+
+    <!-- View界面 -->
+    <string name="view_action_bar_title_text">查看日记</string>
+
+    <!-- Change界面 -->
+    <string name="change_action_bar_title_text">修改日记</string>
+    <string name="change_store_bt_text">保存更改</string>
+    <string name="change_dl_title_text">更改提示</string>
+    <string name="change_dl_store_message_text">确认后不可恢复!\n还要继续更改吗?</string>
+    <string name="change_dl_positive_text">确认</string>
+    <string name="change_dl_negative_text">取消</string>
+    <string name="change_cancel_bt_text">取消更改</string>
+    <string name="change_dl_cancel_confirm_text">确认取消更改吗?</string>
+    <string name="change_success_change_text">更改成功</string>
+    <string name="change_success_cancel_text">更改已取消</string>
+
+    <!-- WebBroswer界面 -->
+    <string name="web_broswer_action_bar_title_text">南通大学官网</string>
+
+    <!-- AboutUs界面 -->
+    <string name="about_us_action_bar_title_text">关于我们</string>
+    <string name="about_us_author_text">作者: MGE(杜锦波)</string>
+    <string name="about_us_version_text">版本: 3.2.0</string>
+    <string name="about_us_date_text">日期: 2016年02月09日</string>
+    <string name="about_us_copyright_text">Copyright © 2015-2016</string>
+    <string name="about_us_qq_text">QQ: 616173102</string>
+    <string name="about_us_tel_text">Tel: 15706299377</string>
+    <string name="about_us_donate_text">支持开发者: 15706299377(支付宝)</string>
+    <string name="about_us_dl_positive_text">确定</string>
+    <string name="about_us_dl_author_text">关于作者</string>
+    <string name="about_us_dl_message_text">作者: MGE(杜锦波)\n\nQQ: 616173102\n\nTel: 15706299377\n\n支持开发者: 15706299377(支付宝)</string>
+
+</resources>

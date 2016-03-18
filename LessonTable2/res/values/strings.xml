@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="app_name">计143课程表</string>
+
+    <!-- 课表课程 -->
+    <string name="table_jieshu_text">节次</string>
+    <string name="table_english_text">大学英语</string>
+    <string name="table_jisuanjizechengyuanli_text">计算机组成原理</string>
+    <string name="table_operate_system_text">操作系统</string>
+    <string name="table_java_web_text">Java Web开发技术</string>
+    <string name="table_pe_text">体育</string>
+    <string name="table_database_text">数据库原理与应用</string>
+    <string name="table_maozedong_text">毛泽东思想和中国特色社会主义理论体系概论</string>
+    <!-- 星期 -->
+    <string name="table_one_text">一</string>
+    <string name="table_two_text">二</string>
+    <string name="table_three_text">三</string>
+    <string name="table_four_text">四</string>
+    <string name="table_five_text">五</string>
+    <string name="table_six_text">六</string>
+    <string name="table_seven_text">日</string>
+    <string name="table_monday_text">星期一</string>
+    <string name="table_tuesday_text">星期二</string>
+    <string name="table_wednesday_text">星期三</string>
+    <string name="table_thursday_text">星期四</string>
+    <string name="table_friday_text">星期五</string>
+    <string name="table_saturday_text">星期六</string>
+    <string name="table_sunday_text">星期日</string>
+    <string name="table_tips_design_text">注:\n\t计算机组成原理课程设计(18-18周),操作系统课程设计(19-19周).</string>
+
+    <!-- 提示内容 -->
+    <string name="table_tips_text">提示:</string>
+    <string name="table_nolesson_text">今天没有课哦,好好休息吧!</string>
+    <string name="table_possitive_text">继续睡觉!</string>
+
+    <!-- 详细课程 -->
+    <string name="lesson_tips_text">详细信息:</string>
+    <string name="lesson_makesure_text">去上课!</string>
+    <string name="lesson_monday_english_text">节次:\t1~3\n周数:\t1~16\n时间:\t7:50~10:15\n教室:\t暂定\n学时:\t80\n学分:\t5.0\n考核:\t考试\n教师:\t暂定\n合班数:\t11\n其他:\n</string>
+    <string name="lesson_monday_jisuanjizechengyuanli_text">节次:\t4~5\n周数:\t1~16\n时间:\t10:30~12:00\n教室:\t主208(Z)\n学时:\t64\n学分:\t4.0\n考核:\t考试\n教师:\t成耀\n合班数:\t2\n其他:\t上机时间暂定\n</string>
+    <string name="lesson_monday_os_text">节次:\t6~7\n周数:\t1~16\n时间:\t13:30~15:00(5月前)14:00~14:40(5月后)\n教室:\t教404(Z)\n学时:\t64\n学分:\t4.0\n考核:\t考试\n教师:\t丁卫平\n合班数:\t2\n其他:\t上机时间暂定\n</string>
+    <string name="lesson_tuesday_javascript_text">节次:\t3~5\n周数:\t1~16\n时间:\t9:35~12:00\n教室:\t主319(Z)\n学时:\t48\n学分:\t3.0\n考核:\t考查\n教师:\t严燕\n合班数:\t2\n其他:\t第3,6,9,12,15周在主704上机\n</string>
+    <string name="lesson_tuesday_pe_text">节次:\t6~7\n周数:\t1~16\n时间:\t13:30~15:00(5月前)14:00~14:40(5月后)\n教室:\t无\n学时:\t36\n学分:\t1.0\n考核:\t考试\n教师:\t\n合班数:\t\n其他:\n</string>
+    <string name="lesson_wednesday_sql_text">节次:\t1~2\n周数:\t1~16\n时间:\t7:50~9:20\n教室:\t主319(Z)\n学时:\t64\n学分:\t4.0\n考核:\t考试\n教师:\t华进\n合班数:\t2\n其他:\n</string>
+    <string name="lesson_wednesday_english_text">节次:\t4~5\n周数:\t1~16\n时间:\t10:30~12:00\n教室:\t暂定\n学时:\t80\n学分:\t5.0\n考核:\t考试\n教师:\t暂定\n合班数:\t11\n其他:\n</string>
+    <string name="lesson_thursday_jisuanjizechengyuanli_text">节次:\t1~2\n周数:\t1~16\n时间:\t7:50~9:20\n教室:\t主320(Z)\n学时:\t64\n学分:\t4.0\n考核:\t考试\n教师:\t成耀\n合班数:\t2\n其他:\t上机时间暂定\n</string>
+    <string name="lesson_thursday_maozedong_text">节次:\t3~5\n周数:\t1~16\n时间:\t9:35~12:00\n教室:\t主323(Z)\n学时:\t92\n学分:\t6.0\n考核:\t考试\n教师:\t陈艳秋\n合班数:\t4\n其他:\n</string>
+    <string name="lesson_thursday_os_text">节次:\t6~7\n周数:\t1~16\n时间:\t13:30~15:00(5月前)14:00~14:40(5月后)\n教室:\t教405(Z)\n学时:\t64\n学分:\t4.0\n考核:\t考试\n教师:\t丁卫平\n合班数:\t2\n其他:\t上机时间暂定\n</string>
+    <string name="lesson_firday_sql_text">节次:\t6~7\n周数:\t1~16\n时间:\t13:30~15:00(5月前)14:00~14:40(5月后)\n教室:\t主107(Z)\n学时:\t64\n学分:\t4.0\n考核:\t考试\n教师:\t华进\n合班数:\t2\n其他:\n</string>
+    <string name="change_lesson_table">修改课程表</string>
+    <string name="add_lesson_text">添加课程</string>
+    <string name="delete_lesson_text">删除课程</string>
+    <string name="clear_lesson_table_text">清空课程表</string>
+    <string name="submit_only_text">提交</string>
+    <string name="classes_text">合班数</string>
+    <string name="test_method">考核方式</string>
+    <string name="teacher_text">教师</string>
+    <string name="others_text">其他</string>
+    <string name="submit_all_text">全部提交</string>
+    <string name="xuefen_text">学分</string>
+    <string name="xueshi_text">学时</string>
+    <string name="class_room_text">教室</string>
+    <string name="time_text">时间</string>
+    <string name="input_week_num_text">输入周数</string>
+    <string name="input_jieci_text">输入节次:如1~3</string>
+    <string name="change_all_text">全部修改</string>
+
+</resources>

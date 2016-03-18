@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 1" />
+
+    <Button
+        android:id="@+id/destory_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DestoryActivity" />
+
+    <Button
+        android:id="@+id/switch_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SwitchActivity" />
+
+    <Button
+        android:id="@+id/switch_bt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="inSwitchActivity" />
+
+    <Button
+        android:id="@+id/open_broswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OpenBroswer" />
+
+    <Button
+        android:id="@+id/open_dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OpenDial" />
+
+    <Button
+        android:id="@+id/show_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ShowData" />
+
+    <Button
+        android:id="@+id/return_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ReturnData" />
+
+    <Button
+        android:id="@+id/standrad_launch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lanuch" />
+
+    <Button
+        android:id="@+id/best_launch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Best Lanuch" />
+
+</LinearLayout>
